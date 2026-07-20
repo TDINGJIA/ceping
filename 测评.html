@@ -260,11 +260,12 @@ input:focus,select:focus{border-color:var(--accent)}
 <script>
 	// HR 短码 → 全名映射
 	const _alias={
-	  'bxc':'白小初'
+	  'bxc':'白小初','blw':'白乐皖'
 	};
 const _k='aHR0cHM6Ly9vcGVuLmZlaXNodS5jbi9vcGVuLWFwaXMvYm90L3YyL2hvb2sv';
 const _m={
-  '白小初':'MTNhYjQ4MGUtOGU0Ny00MWRhLWEyNmEtNmIwMzY1Nzk3MDMx'
+  '白小初':'MTNhYjQ4MGUtOGU0Ny00MWRhLWEyNmEtNmIwMzY1Nzk3MDMx','白乐皖'：'MTI2YzJjYWYtZjM0ZS00ZjYyLWJjZDgtYjQ5NDNjM2JiOGEw'
+	
 };
 function _g(n){return atob(_k)+atob(_m[n])}
 const urlParams=new URLSearchParams(window.location.search);
